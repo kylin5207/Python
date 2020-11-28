@@ -11,7 +11,7 @@
     节约内存
     
 """
-
+from collections.abc import Iterator
 
 def fib(times):
     n = 0
@@ -45,5 +45,8 @@ def test2(num):
 if __name__ == "__main__":
     # test1()
     test2(5)
+    
+    # 如何判断是否可迭代
+    print("Is it iteratable? {}".format(isinstance(fib(4), Iterator)))
 
 
