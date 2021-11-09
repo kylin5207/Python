@@ -38,11 +38,19 @@ class Fibnacci(object):
         else:
             raise StopIteration
 
+
 def main():
     fibo = Fibnacci(10)
-    for num in fibo:
-        print(num)
-        time.sleep(1)
+
+    # 使用迭代器的方式一：for循环遍历
+    # for num in fibo:
+    #     print(num)
+    #     time.sleep(1)
+
+    # 使用迭代器的方式二：可以用list,tuple接受迭代器，转换成一个可迭代对象
+    fibo_list = list(fibo)
+    print(fibo_list)
+
 
 if __name__ == "__main__":
     main()
