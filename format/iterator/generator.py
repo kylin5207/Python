@@ -12,8 +12,8 @@ generator 生成器
 简单一句话：我又想要得到庞大的数据，又想让它占用空间少，那就用生成器！
 
 
-:Author: Shangmengqi@tsingj.com
-:Last Modified by: Shangmengqi@tsingj.com
+:Author: kylin
+:Last Modified by: kylin.smq@qq.com
 """
 
 # 创建生成的方法1
