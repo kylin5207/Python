@@ -1,0 +1,6 @@
+user_space_size:
+  min: 100
+  max: 7000
+stack_size:
+  min: 10
+  max: 7000
