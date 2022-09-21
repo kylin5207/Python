@@ -34,7 +34,7 @@ print("-"*10)
 # 更复杂的对比
 print("********Embed usage********")
 d = list()
-# 遍历原列表中的每一个元素，将其使用extend()追加
+# 遍历原列表中的每一个元素，将其使用append()追加
 for n in a:
     d.append(n)
 print(d)
