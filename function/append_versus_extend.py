@@ -38,7 +38,7 @@ d = list()
 for n in a:
     d.append(n)
 print(d)
-print(f"After extend, the list length equals {len(d)}")
+print(f"After append, the list length equals {len(d)}")
 print("-"*10)
 
 e = list()
@@ -49,12 +49,12 @@ print(e)
 print(f"After extend, the list length equals {len(e)}")
 print("-"*10)
 
-# +与extend()在效果上具有相同的功能，但是实际上生成了一个新的列表来存放这两个列表的和，只能用在两个列表相加上
+# +与extend()在效果上具有相同的功能，但是实际上生成了一个新的列表来存放这两个列表的集合，只能用在两个列表相加上
 m = [1, 2, 3]
 n = [5, 6, 7]
 plus = m + n
 print(f"m id = {id(m)}")
 print(f"n id = {id(n)}")
 print(plus)
-# 可以看到实际上生成了一个新的列表来存放这两个列表的和
+# 可以看到实际上生成了一个新的列表来存放这两个列表的集合
 print(f"+ id = {id(plus)}")
