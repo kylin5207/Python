@@ -1,4 +1,3 @@
-import pickle_usage
 import random
 
 left = 0
@@ -18,7 +17,10 @@ print(type(generate()))
 g = generate()
 # 第一次调用next，相当于启动生成器，会从生成器函数的第一行代码开始执行，直到第一次执行完yield语句后，跳出生成器函数。
 print("=====1===")
+# 写法1
 print(next(g))
+# 写法2
+# print(g.__next__())
 print("=====2===")
 print(next(g))
 print("=====3===")
