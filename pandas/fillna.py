@@ -28,6 +28,7 @@ print(constant_fill)
 
 # 中位数填充
 median_value = data_df.median(skipna=True)
+median_value = data_df.quantile(q=0.5)
 median_fill = data_df.fillna(median_value)
 print(f"==== median fill =====")
 print(median_fill)
