@@ -1,5 +1,5 @@
 """
-多进程的简单实用
+多进程的简单实用(串行运行)
 """
 import multiprocessing
 
